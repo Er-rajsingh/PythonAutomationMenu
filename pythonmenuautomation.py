@@ -2,7 +2,7 @@ import os
 import getpass
 
 password = getpass.getpass("Enter the password to access this assistant: ")
-if password == 'redhat':
+if password == 'yoursetpassword':
     print("\t\t\t Welcome to the python assistant")
     print("\t\t\t -------------------------------")
     x = input("Which system you want to run commands(local/remote): ")
